@@ -1,6 +1,6 @@
 -- Delete and create database hbtn_test_db_0 and create 3 tables
-DROP DATABASE IF EXISTS hbtn_test_db_0;
-CREATE DATABASE IF NOT EXISTS hbtn_test_db_0;
+DROP DATABASE IF EXISTS hbtn_test_db_3;
+CREATE DATABASE IF NOT EXISTS hbtn_test_db_3;
 USE hbtn_test_db_0;
 
 CREATE TABLE IF NOT EXISTS holbteron_0 (
