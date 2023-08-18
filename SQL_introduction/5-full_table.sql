@@ -1,8 +1,9 @@
 -- Write a script that prints the full description of the table first_table from the database hbtn_0c_0 in your MySQL server.
 
-CREATE DATABASE hbtn_0c_0;
+DROP DATABASE IF EXISTS hbtn_test_db_0;
+CREATE DATABASE IF NOT EXISTS hbtn_test_db_0;
 USE hbtn_0c_0;
-CREATE TABLE first_table(
+CREATE TABLE IF NOT EXISTS first_table(
   id INT,
   name VARCHAR(256), 
   c CHAR(1),
