@@ -4,4 +4,5 @@
 -- INSERT INTO first_table (id) VALUE (89);
 
 USE  hbtn_test_db_8;
-SELECT * FROM first_table WHERE id =89;
+SELECT COUNT(id)
+ FROM first_table WHERE id =89;
