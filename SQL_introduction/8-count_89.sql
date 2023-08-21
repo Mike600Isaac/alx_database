@@ -3,5 +3,5 @@
 -- USE hbtn_0c_0;
 -- INSERT INTO first_table (id) VALUE (89);
 
-USE  hbtn_test_db_89;
+USE  hbtn_test_db_8;
 SELECT * FROM first_table WHERE id =89;
