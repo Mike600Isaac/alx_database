@@ -2,5 +2,5 @@
 
 
 
-USE hbtn_0c_6;
+USE hbtn_test_db_6;
 SELECT *  FROM first_table;
