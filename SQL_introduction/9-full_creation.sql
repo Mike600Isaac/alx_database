@@ -1,52 +1,19 @@
 -- Write a script that creates a table second_table in the database hbtn_0c_0 in your MySQL server and add multiples rows.
 
 
-
--- DROP DATABASE IF EXISTS hbtn_test_db_9;
--- CREATE DATABASE IF NOT EXISTS hbtn_test_db_9;
--- USE hbtn_test_db_9;
-
--- CREATE TABLE IF NOT EXITS second_table(
---   id INT,
---   name VARCHAR(256),
---   score INT
--- );
-
--- INSERT INTO second_table (id, name, score) VALUES (1, "John", 10);
--- INSERT INTO second_table (id, name, score) VALUES (2, "Alex", 3);
--- INSERT INTO second_table (id, name, score) VALUES (3, "Bob", 14);
--- INSERT INTO second_table (id, name, score) VALUES (4, "George", 8);
-
-
--- USE hbtn_test_db_9;
-
--- CREATE TABLE second_table(id INT, name VARCHAR(256), score INT);
-
--- INSERT INTO second_table
--- VALUES(1, 'John', 10);
-
--- INSERT INTO second_table
--- VALUES(2, 'Alex', 3);
-
--- INSERT INTO second_table
--- VALUES(3, 'Bob', 14);
-
--- INSERT INTO second_table
--- VALUES(4, 'George', 8);
-
-
 -- create second table
+USE hbtn_test_db_9;
 
-CREATE TABLE IF NOT EXISTS second_table
-(
-    id INT,
-    name VARCHAR(256),
-    score INT
-);
+CREATE TABLE second_table(id INT, name VARCHAR(256), score INT);
 
-INSERT INTO second_table VALUES (1, "John", 10);
-INSERT INTO second_table VALUES (2, "Alex", 3);
-INSERT INTO second_table VALUES (3, "Bob", 14);
-INSERT INTO second_table VALUES (4, "George", 8);
+INSERT INTO second_table
+VALUES(1, 'John', 10);
 
+INSERT INTO second_table
+VALUES(2, 'Alex', 3);
 
+INSERT INTO second_table
+VALUES(3, 'Bob', 14);
+
+INSERT INTO second_table
+VALUES(4, 'George',8);
